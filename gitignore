@@ -1,0 +1,15 @@
+# Ignore build artifacts
+dist/
+node_modules/
+
+# Ignore sensitive information
+.env
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore operating system files
+Thumbs.db
+.DS_Store
