@@ -1,16 +1,16 @@
 [build]
-  command = "jekyll build"
+  command = "bundle exec jekyll build"
   publish = "_site"
 
 [context.production.environment]
   JEKYLL_ENV = "production"
 
 [context.deploy-preview]
-  command = "jekyll build"
+  command = "bundle exec jekyll build"
   publish = "_site"
 
 [context.branch-deploy]
-  command = "jekyll build"
+  command = "bundle exec jekyll build"
   publish = "_site"
 
 [context.next.environment]
